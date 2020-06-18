@@ -288,7 +288,7 @@
 #ifdef DEFAULTS_RAMPS_BOARD
   // Enable the following line to inverse logical behaviour (Normaly Open / Normaly Closed)
   // of some min limit switches attached.
-  //#define INVERT_MIN_LIMIT_PIN_MASK ((1<<AXIS_1) | (1<<AXIS_2) | (1<<AXIS_3))
+  #define INVERT_MIN_LIMIT_PIN_MASK ((1<<AXIS_1) | (1<<AXIS_2) | (1<<AXIS_3) | (1<<AXIS_4))
   // Enable the following line to inverse logical behaviour (Normaly Open / Normaly Closed)
   // of some max limit switches attached.
   //#define INVERT_MAX_LIMIT_PIN_MASK ((1<<AXIS_1) | (1<<AXIS_2) | (1<<AXIS_3))
